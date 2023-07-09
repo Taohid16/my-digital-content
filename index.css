@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin:0%
+}
+.nav-container{
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.manus{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    color: white;
+}
+.banner-container{
+    height: 100vh;
+    background-image: url("./image/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    border: none;
+    padding: 12px 20px;
+}
+.bg-primary{
+    background-color: red;
+    color: white;
+}
