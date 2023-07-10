@@ -49,3 +49,107 @@
     background-color: red;
     color: white;
 }
+.service-container{
+    height: 100vh;
+    background-image: url("./image/footer-bg.png"),linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.icon{
+    width: 70px;
+}
+.box{
+    padding: 50px;
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 9px gray;
+    
+}
+.service-container{
+    display: flex;
+}
+.service-description{
+
+    width: 50%;
+}
+.first-two-box{
+    display: flex;
+    gap: 12px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.profile-container{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-right: 2px solid red;
+    padding: 20px;
+    margin-top: 5px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+}
+.appointment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(229, 49, 49, 0.8);
+    border-radius: 10px;
+    margin-top: -30px;
+    align-items: center;
+}
+.blog-title{
+    color: #000;
+    text-align: center;
+    margin: 50px;
+}
+.card{
+    width: 220px;
+    width: 300px;
+    box-shadow: 4px 8px 5px gray;
+    color: black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px   ;
+}
+.blog-container{
+    width: 80%;
+    margin: auto;
+    background-color: gray;
+    padding: 10px;
+}
